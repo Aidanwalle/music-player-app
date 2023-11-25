@@ -1,0 +1,33 @@
+.track {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  font-size: clamp(0.75rem, 0.54rem + 1.0601vw, 0.9375rem);
+  &b {
+    letter-spacing: 1px;
+  }
+
+  &p {
+    letter-spacing: 1px;
+    color: #9e9e9e;
+  }
+}
+
+.credits {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.preview {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+.playing * {
+  color: #7862f8 !important;
+}
